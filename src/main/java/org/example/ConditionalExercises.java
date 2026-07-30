@@ -1,5 +1,5 @@
 package org.example;
-
+import java.util.Scanner;
 public class ConditionalExercises {
     public boolean lessThanFive(int x) {
         // Replace the line below with code that returns true if x is less than 5, and false otherwise
@@ -24,5 +24,19 @@ public class ConditionalExercises {
         // (use an if statement with an else block.)
         if (passwordLength >= 8) return true;
          else return false;
+    }
+    public static void main(String[] args) {
+        ConditionalExercises exercise = new ConditionalExercises();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int x = scanner.nextInt();
+        System.out.println("is " + x + " less than 5: " + exercise.lessThanFive(x));
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("You are a " + exercise.getAgeGroup(age) + "!");
+        System.out.print("Enter password: ");
+        String password = scanner.nextLine();
+        System.out.println("Is password valid? " + exercise.isValidPassword(password));
     }
 }

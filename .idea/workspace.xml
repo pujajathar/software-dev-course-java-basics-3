@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5255b3c-d517-44b9-92ad-783cf1cec81d" name="Changes" comment="Completed java-basics-3 practice">
+    <list default="true" id="a5255b3c-d517-44b9-92ad-783cf1cec81d" name="Changes" comment="Added main method in ConditionalExercises file to make it runnable file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConditionalExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConditionalExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoopExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoopExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ConditionalExercises.executor": "Run",
+    "Application.LoopExercises.executor": "Run",
     "Application.Main.executor": "Run",
     "JUnit.ConditionalExercisesTests.executor": "Run",
     "JUnit.LoopExercisesTests.executor": "Run",
@@ -117,6 +118,7 @@
     <MESSAGE value="Completed Initial Draft" />
     <MESSAGE value="Addimg images" />
     <MESSAGE value="Completed java-basics-3 practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed java-basics-3 practice" />
+    <MESSAGE value="Added main method in ConditionalExercises file to make it runnable file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added main method in ConditionalExercises file to make it runnable file." />
   </component>
 </project>
